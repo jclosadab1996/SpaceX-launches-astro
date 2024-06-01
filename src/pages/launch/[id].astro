@@ -2,6 +2,8 @@
 import { getLatestLaunches, getLaunchBy } from "../../lib/spacex"
 import Layout from "../../layouts/Layout.astro"
 
+export const prerender = false
+
 const {id} = Astro.params
 
 let launch

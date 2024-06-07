@@ -1,54 +1,72 @@
-# Astro Starter Kit: Basics
+# SpaceX Launches with Astro
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este proyecto es una página web diseñada para mostrar lanzamientos de SpaceX utilizando Astro, un moderno generador de sitios estáticos.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Características
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Astro:** Framework para construir sitios web rápidos y modernos.
+- **Tailwind CSS:** Framework de CSS para estilos modernos y responsivos.
+- **TypeScript:** Superconjunto de JavaScript que añade tipos estáticos.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Estructura del Proyecto
 
-## 🚀 Project Structure
+Dentro del proyecto encontrarás los siguientes directorios y archivos:
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
 ├── public/
-│   └── favicon.svg
+│ └── favicon.svg
 ├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│ ├── components/
+│ │ └── Card.astro
+│ ├── layouts/
+│ │ └── Layout.astro
+│ └── pages/
+│ └── index.astro
 └── package.json
-```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+markdown
+Copiar código
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Comandos
 
-Any static assets, like images, can be placed in the `public/` directory.
+Todos los comandos se ejecutan desde la raíz del proyecto en una terminal:
 
-## 🧞 Commands
+- `pnpm install`: Instala las dependencias.
+- `pnpm run dev`: Inicia el servidor de desarrollo local en `localhost:4321`.
+- `pnpm run build`: Construye el sitio para producción en `./dist/`.
+- `pnpm run preview`: Previsualiza la construcción de tu sitio localmente antes de desplegar.
+- `pnpm run astro ...`: Ejecuta comandos CLI como `astro add`, `astro check`.
+- `pnpm run astro -- --help`: Obtén ayuda utilizando la CLI de Astro.
 
-All commands are run from the root of the project, from a terminal:
+## Instalación
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/jclosadab1996/SpaceX-launches-astro.git
+Navega al directorio del proyecto:
+sh
+Copiar código
+cd SpaceX-launches-astro
+Instala las dependencias:
+sh
+Copiar código
+pnpm install
+Uso
+Inicia el servidor de desarrollo:
+sh
+Copiar código
+pnpm run dev
+Abre http://localhost:4321 en tu navegador para ver la página.
+Contribución
+Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 
-## 👀 Want to learn more?
+Haz un fork del proyecto.
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y haz commit (git commit -am 'Agrega nueva funcionalidad').
+Sube tus cambios (git push origin feature/nueva-funcionalidad).
+Abre un Pull Request.
+Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Contacto
+Para cualquier consulta o comentario, puedes contactar a jclosadab1996.
